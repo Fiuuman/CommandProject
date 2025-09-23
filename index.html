@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hoodwink GPT — макет</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stage">
+    <div class="phone" role="main" aria-label="Mockup">
+      <div class="top-row">
+        <!-- Левый значок (инфо) -->
+        <div class="icon-circle">
+          <img src="./img/info.svg" alt="info icon">
+        </div>
+
+        <!-- Правый значок (корзина) -->
+        <div class="icon-circle">
+          <img src="./img/shop.svg" alt="cart icon">
+        </div>
+      </div>
+
+      <!-- Аватар (по центру) -->
+      <div class="avatar-wrap">
+        <div class="avatar">
+          <img src="./img/logo.png" alt="avatar">
+        </div>
+      </div>
+
+      <!-- Имя/заголовок -->
+      <div class="name-pill">Hoodwink GPT</div>
+
+      <!-- Основная область чата -->
+      <div class="chat-area">
+        <div class="messages" aria-hidden="true">
+          <!-- Здесь могли бы быть сообщения — убрано -->
+        </div>
+
+        <!-- Строка ввода -->
+        <div class="input-row">
+          <input class="text-input" type="text" placeholder="Спросите что-нибудь..." aria-label="Поле ввода">
+          <!-- Кнопка отправки (можно убрать если не нужна) -->
+          <button class="send-btn" aria-label="Отправить">
+            <img src="./img/send.svg" alt="send icon">
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
